@@ -1,0 +1,8 @@
+~/
+~/.local/share/
+~/.config/
+/mnt/sdb1/Music/
+/mnt/sdb1/Movies/
+/mnt/sdb1/Shows/
+/mnt/sdb1/SteamLibrary/steamapps/common/
+/mnt/sdb1/Downloads_the_Fourth/
