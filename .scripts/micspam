@@ -1,0 +1,3 @@
+#!/bin/bash
+pactl load-module module-null-sink
+pacmd set-default-source 1
