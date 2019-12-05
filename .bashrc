@@ -151,5 +151,7 @@ LS_COLORS=$LS_COLORS'ow=0;35:' ; export LS_COLORS
 export PROMPT_COMMAND=$PROMPT_COMMANDS" pwd > /tmp/whereami"
 
 alias ydl='youtube-dl --extract-audio --audio-format mp3 -o "%(title)s.%(ext)s"'
-
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias wallpaper='feh --bg-fill'
+
+PS1='\# \[\033[33m\][\[\033[01;32m\]\u\[\033[33m\]]\[\033[34m\] \w\[\033[00m\]:\$ '
