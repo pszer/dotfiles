@@ -2,7 +2,7 @@
 urxvt*depth: 32
 ! special
 *.foreground:   #CEE1BB
-*.background:   rgba:1500/1600/1400/e000
+*.background:   rgba:1500/1600/1400/3500
 *.cursorColor:  #ade577
 
 ! black
