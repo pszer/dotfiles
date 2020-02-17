@@ -1,0 +1,38 @@
+urxvt*depth: 32
+! special
+*foreground:   #CEE1BB
+urxvt.background: rgba:1500/1600/1400/AD00
+emacs.background: #151614
+*cursorColor:  #ade577
+
+! black
+*color0:       #252525
+*color8:       #454545
+
+! red
+*color1:       #c57a69
+*color9:       #c8897e
+
+! green
+*color2:       #c9ff3d
+*color10:      #8eee2f
+
+! yellow
+*color3:       #f3f307
+*color11:      #d8e123
+
+! blue
+*color4:       #ebd13a
+*color12:      #e4d454
+
+! magenta
+*color5:       #dcab48
+*color13:      #e1bd71
+
+! cyan
+*color6:       #bff371
+*color14:      #b4f53a
+
+! white
+*color7:       #d2e8d5
+*color15:      #dbe7d5
