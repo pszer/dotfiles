@@ -1,86 +1,10 @@
 ! special
 urxvt*depth: 32
 ! special
-*.foreground:   #CEE1BB
-*.background:   rgba:1500/1600/1400/9000
-*.cursorColor:  #ade577
-
-! black
-*.color0:       #252525
-*.color8:       #454545
-
-! red
-*.color1:       #c57f69
-*.color9:       #c8907e
-
-! green
-*.color2:       #a6e22e
-*.color10:      #b6e354
-
-! yellow
-*.color3:       #d9fd1f
-*.color11:      #e5ff48
-
-! blue
-*.color4:       #49d8b7
-*.color12:      #6bd8be
-
-! magenta
-!*.color5:       #ceac58
-!*.color13:      #e8cb5c
-*.color5:       #DCAB48
-*.color13:      #E1BD71
-
-! cyan
-*.color6:       #5dc990
-*.color14:      #7bcca0
-
-! white
-*.color7:       #d2e8db
-*.color15:      #d5e7d8
-
-! yousai theme
-! special
-!urxvt*depth: 32
-! special
-!*.foreground:   #34302d
-!*.background:   #f6eac2
-!*.cursorColor:  #34302d
-
-! black
-!*.color0:       #666661
-!*.color8:       #7f7f7a
-
-! red
-!*.color1:       #992e2e
-!*.color9:       #b23636
-
-! green
-!*.color2:       #4c3226
-!*.color10:      #664233
-
-! yellow
-!*.color3:       #a67c53
-!*.color11:      #bf8f60
-
-! blue
-!*.color4:       #4c7399
-!*.color12:      #5986b2
-
-! magenta
-!*.color5:       #bf9986
-!*.color13:      #d9ae98
-
-! cyan
-!*.color6:       #d97742
-!*.color14:      #f2854a
-
-! white
-!*.color7:       #34302d
-!*.color15:      #4c4742
+#include "/home/quake/colours/junglist.txt"
 
 !! URxvt Appearance
-URxvt.font: xft:envypn:size=11
+URxvt.font: xft:envypn:size=11, xft:NotoSansMono:pixelsize=11
 URxvt.boldFont: xft:envypn:size=11
 uRxvt.italicFont: xft:envypn:size=11
 uRxvt.boldItalicfont: xft:envypn:size=11
@@ -99,3 +23,5 @@ URxvt.cursorColor: #FFFF00
 URxvt.geometry:92x24
 
 URxvt.perl-ext-common: resize-font
+
+emacs.font: envypn
