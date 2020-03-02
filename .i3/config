@@ -205,7 +205,7 @@ exec_always --no-startup-id $HOME/.i3/polybar.sh
 # https://github.com/Airblader/i3/tree/gaps-next
 # delete or uncomment the following lines if you do not have it or do not
 # want it
-for_window [class="^.*"] border pixel 2
+# for_window [class="^.*"] border pixel 2
 gaps inner 20
 gaps horizontal 5
 gaps bottom 5
@@ -214,11 +214,11 @@ smart_borders on
 
 # jungle theme
 #client.focused          #84951E #83951E #FFFFFF #4a7d1c
-client.focused          #A3DC27 #2A2A2A #FFFFFF #A3DC27   #A3DC27
-client.focused_inactive #333333 #5F676A #FFFFFF #484E50   #5F676A
-client.unfocused        #333333 #222222 #888888 #292D2E   #222222
-client.urgent           #2F343A #900000 #FFFFFF #900000   #900000
-client.placeholder      #000000 #0C0C0C #FFFFFF #000000   #0C0C0C
+#client.focused          #A4DC27 #2A2A2A #FFFFFF #A3DC27   #A3DC27
+#client.focused_inactive #333333 #5F676A #FFFFFF #484E50   #5F676A
+#client.unfocused        #333333 #222222 #888888 #292D2E   #222222
+#client.urgent           #2F343A #900000 #FFFFFF #900000   #900000
+#client.placeholder      #000000 #0C0C0C #FFFFFF #000000   #0C0C0C
 
 # eggshell theme
 #client.focused          #C4B48D #C4B48D #FFFFFF #C4B48D   #C4B48D
@@ -226,6 +226,16 @@ client.placeholder      #000000 #0C0C0C #FFFFFF #000000   #0C0C0C
 #client.unfocused        #AFA176 #AFA176 #FFFFFF #AFA176   #AFA176
 #client.urgent           #900000 #900000 #FFFFFF #900000   #900000
 #client.placeholder      #000000 #0C0C0C #FFFFFF #000000   #0C0C0C
+#
+# pistachio theme
+## class                 border  bground text    indicator child_border
+client.focused          #8EB826 #97B84A #FFFFFF #8EB826   #8EB826
+client.focused_inactive #658C06 #5b5e5b #FFFFFF #658C06   #658C06
+client.unfocused        #658C06 #5b5e5b #FFFFFF #658C06   #658C06
+client.urgent           #2F343A #900000 #FFFFFF #900000   #900000
+client.placeholder      #000000 #0C0C0C #FFFFFF #000000   #0C0C0C
+
+client.background       #FFFFFF
 
 client.background       #FFFFFF
 
@@ -245,3 +255,6 @@ bindsym $mod+Shift+d		gaps inner current set 0; gaps outer current set 0
 
 # open ranger
 bindsym $mod+e exec ~/.i3/i3_ranger.sh
+
+# default_border none
+# default_floating_border normal

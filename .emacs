@@ -19,8 +19,8 @@
 (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/"))
 (package-initialize)
 
-(set-frame-parameter (selected-frame) 'alpha '(85 . 50))
-(add-to-list 'default-frame-alist '(alpha . (85 . 85)))
+;;(set-frame-parameter (selected-frame) 'alpha '(85 . 50))
+;; (add-to-list 'default-frame-alist '(alpha . (85 . 85)))
 
 (require 'evil)
 (evil-mode 1)
@@ -31,6 +31,8 @@
 (slime-setup) 
 
 (tool-bar-mode -1)
+(toggle-scroll-bar -1)
+(set-face-attribute 'fringe nil :background nil)
 
 (defun tear-off-window-if-not-alone ()
   "Move selected window to a new frame, unless it is alone in its frame.
@@ -42,3 +44,6 @@ frame showing the same buffer."
     (tear-off-window)))
 
 (show-paren-mode 1)
+
+(global-linum-mode)
+
