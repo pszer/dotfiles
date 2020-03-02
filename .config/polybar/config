@@ -18,11 +18,14 @@
 
 [colors]
 ;background = ${xrdb:color0:#222}
-background = #E0151614
+;background = #E0151614
+;background = #E0151515
+background = #424242
 background-alt = #444
 ;foreground = ${xrdb:color7:#222}
-foreground = #dfdfdf
-foreground-alt = #555
+;foreground = #dfdfdf
+foreground = #ffffff
+foreground-alt = #ffffff
 primary = #A3DC27
 secondary = #e60053
 alert = #bd2c40
@@ -30,7 +33,7 @@ alert = #bd2c40
 [bar/bar1]
 ;monitor = ${env:MONITOR:HDMI-1}
 width = 100%
-height = 32
+height = 24
 ;offset-x = 1%
 ;offset-y = 1%
 radius = 3.0
@@ -42,7 +45,7 @@ foreground = ${colors.foreground}
 line-size = 3
 line-color = #f00
 
-border-size = 4
+border-size = 0
 border-color = #00000000
 
 padding-left = 1
@@ -153,7 +156,7 @@ label-mode-background = #00000000
 ; focused = Active workspace on focused monitor
 label-focused = %index%
 ;label-focused-background = ${colors.background-alt}
-label-focused-background = #E0151614
+label-focused-background = #6E9019
 label-focused-underline= ${colors.primary}
 label-focused-padding = 2
 
@@ -217,7 +220,7 @@ interval = 2
 format-prefix = " "
 format-prefix-foreground = ${colors.foreground-alt}
 ; format-underline = #f90000
-format-underline = #71DC27
+format-underline = #A3DC27
 label = %percentage:2%%
 
 [module/memory]
@@ -225,7 +228,7 @@ type = internal/memory
 interval = 2
 format-prefix = " "
 format-prefix-foreground = ${colors.foreground-alt}
-format-underline = #4bffdc
+format-underline = #A3DC27
 label = %percentage_used%%
 
 [module/wlan]
@@ -237,7 +240,7 @@ interval = 3.0
 ;format-connected-prefix = " "
 ;format-connected-prefix-foreground = ${colors.foreground-alt}
 format-connected = <label-connected>
-format-connected-underline = #9f78e1
+format-connected-underline = #A3DC27
 label-connected = %downspeed:9% %upspeed:9%
 ;label-connected = %essid%
 
@@ -378,12 +381,12 @@ label-muted = 🔇 muted
 label-muted-foreground = #666
 
 bar-volume-width = 10
-bar-volume-foreground-0 = #55aa55
-bar-volume-foreground-1 = #55aa55
-bar-volume-foreground-2 = #55aa55
-bar-volume-foreground-3 = #55aa55
-bar-volume-foreground-4 = #55aa55
-bar-volume-foreground-5 = #f5a70a
+bar-volume-foreground-0 = #4D6512
+bar-volume-foreground-1 = #4D6512
+bar-volume-foreground-2 = #4D6512
+bar-volume-foreground-3 = #4D6512
+bar-volume-foreground-4 = #4D6512
+bar-volume-foreground-5 = #4D6512
 bar-volume-foreground-6 = #ff5555
 bar-volume-gradient = false
 bar-volume-indicator = |

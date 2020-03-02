@@ -1,13 +1,13 @@
 ! special
 urxvt*depth: 32
 ! special
-#include "/home/quake/colours/junglist.txt"
+#include "/home/quake/colours/pistachio.txt"
 
 !! URxvt Appearance
 URxvt.font: xft:envypn:size=11, xft:NotoSansMono:pixelsize=11
-URxvt.boldFont: xft:envypn:size=11
-uRxvt.italicFont: xft:envypn:size=11
-uRxvt.boldItalicfont: xft:envypn:size=11
+!URxvt.boldFont: xft:envypn:size=11
+!uRxvt.italicFont: xft:envypn:size=11
+!uRxvt.boldItalicfont: xft:envypn:size=11
 URxvt.letterSpace: 0
 URxvt.lineSpace: 0
 URxvt.internalBorder: 6
