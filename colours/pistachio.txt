@@ -16,22 +16,22 @@
 *.color10:      #a2cf37
 
 ! yellow
-*.color3:       #c6d216
-*.color11:      #c7cf11
+*.color3:       #d4e01d
+*.color11:      #d1da11
 
 ! blue
-*.color4:       #2ec5a8
-*.color12:      #11947b
+*.color4:       #7ce29c
+*.color12:      #54d28d
 
 ! magenta
 *.color5:       #cfb82f
 *.color13:      #b19319
 
 ! cyan
-*.color6:       #b8dd70
-*.color14:      #a1cf47
+*.color6:       #90d53d
+*.color14:      #83bd2a
 
 ! white
-*.color7:       #eef4d2
-*.color15:      #f7f8f2
+*.color7:       #dce5b5
+*.color15:      #ebf1d1
 
